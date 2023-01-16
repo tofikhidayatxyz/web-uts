@@ -1,6 +1,6 @@
 import '../sass/style.scss';
 import ApexCharts from 'apexcharts';
-
+import AOS from 'aos';
 // document.addEventListener('DOMContentLoaded', () => {
 // 	const grade = document.querySelector('#grade');
 
@@ -99,3 +99,5 @@ document.addEventListener('DOMContentLoaded', () => {
 		document.querySelector('#navbar').classList.toggle('hidden');
 	});
 });
+
+AOS.init();
